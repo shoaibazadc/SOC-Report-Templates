@@ -52,7 +52,7 @@ Recommended Actions — List of response steps
 5. Do the same for recommended actions, then add any steps specific to your environment.
 6. Attach or paste the completed report when escalating.
 
-These templates are a starting point, not a ceiling. Add log extracts, IOC tables, or screenshots as needed.
+> These templates are a starting point, not a ceiling. Add log extracts, IOC tables, or screenshots as needed.
 
 ---
 
