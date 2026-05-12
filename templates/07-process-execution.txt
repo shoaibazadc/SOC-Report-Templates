@@ -1,0 +1,66 @@
+================================================================================
+                          PROCESS EXECUTION
+================================================================================
+
+Date & Time      :
+Alert / Rule     :
+Ticket Ref       :
+Severity         : Low | Medium | High | Critical
+
+--------------------------------------------------------------------------------
+ALERT DETAILS
+--------------------------------------------------------------------------------
+
+Time of Activity :
+User             :
+Endpoint         :
+OS / Version     :
+Process Name     :
+Process ID (PID) :
+Parent Process   :
+Command Line     :
+File Path        :
+File Hash        :
+Detection Source : AV | EDR | SIEM | Other:
+Related Alert IDs:
+
+--------------------------------------------------------------------------------
+SUMMARY
+--------------------------------------------------------------------------------
+
+A suspicious process [X] was executed on endpoint [X] by [user / SYSTEM / X] at [time]. The process was spawned by parent process [X] and executed the following command: [X].
+
+Correlated [EDR telemetry / SIEM alerts / X] shows [X], indicating [X - e.g. known malicious command pattern, misuse of legitimate tool].
+
+User role: Standard | Admin | Service account
+
+--------------------------------------------------------------------------------
+IMPACT
+--------------------------------------------------------------------------------
+
+No evidence of malicious activity (False Positive)
+
+Execution of PowerShell / cmd / WScript / mshta / certutil / [X]
+Script execution with encoded / obfuscated parameters
+Credential dumping attempt
+Scheduled task / registry modification
+Privilege escalation observed
+C2 communication established
+Lateral movement observed
+Malware dropped / staged
+
+--------------------------------------------------------------------------------
+RECOMMENDED ACTIONS
+--------------------------------------------------------------------------------
+
+Review full process tree on endpoint
+Decode / deobfuscate command line arguments
+Check parent process legitimacy
+Isolate endpoint
+Collect and preserve forensic evidence
+Block associated IOCs (hashes / IPs / domains)
+Review scheduled tasks and registry run keys
+
+Tune detection logic to reduce false positives
+
+================================================================================
