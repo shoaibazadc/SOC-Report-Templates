@@ -14,7 +14,7 @@ Templates are tool-agnostic and work alongside any SIEM, EDR, or ticketing platf
 | 02 | Malware / Endpoint Infection |
 | 03 | Ransomware |
 | 04 | Suspicious Login |
-| 05 | Unauthorised Access / Brute Force |
+| 05 | Brute Force |
 | 06 | C2 / Beaconing |
 | 07 | Suspicious Process Execution |
 | 08 | Privilege Escalation |
