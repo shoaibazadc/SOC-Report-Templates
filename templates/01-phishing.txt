@@ -1,13 +1,16 @@
 ================================================================================
                              PHISHING
 ================================================================================
+
 Date & Time      :
 Alert / Rule     :
 Ticket Ref       :
 Severity         : Low | Medium | High | Critical
+
 --------------------------------------------------------------------------------
 ALERT DETAILS
 --------------------------------------------------------------------------------
+
 Time of Activity :
 User             :
 Endpoint         :
@@ -18,9 +21,11 @@ Subject          :
 URL              :
 Attachment       :
 Other            :
+
 --------------------------------------------------------------------------------
 SUMMARY
 --------------------------------------------------------------------------------
+
 A phishing email about [X] was [detected / reported] on [date] targeting
 [user / department / X]. The email contains a malicious [attachment / URL]
 and the sender/domain appears [legitimate / suspicious], impersonating
@@ -31,9 +36,11 @@ suspension warning, invoice overdue, password expiry, parcel delivery].
 
 Correlated [SIEM alerts / proxy logs / EDR telemetry] shows [X],
 indicating [X - e.g. active campaign].
+
 --------------------------------------------------------------------------------
 IMPACT
 --------------------------------------------------------------------------------
+
 Legitimate email activity (False Positive)
 No evidence of user interaction
 Likely user clicked phishing link / opened attachment
@@ -43,9 +50,11 @@ Potential malware infection on endpoint
 Execution of malicious scripts
 Connection attempt successfully blocked
 Business Email Compromise
+
 --------------------------------------------------------------------------------
 RECOMMENDED ACTIONS
 --------------------------------------------------------------------------------
+
 Block sender domain / email address / malicious URLs / associated IPs
 Search for other recipients of the same email
 Monitor for user click activity
@@ -59,4 +68,5 @@ Isolate endpoint
 Remove malicious files / attachments
 Tune detection logic to reduce false positives
 Whitelist domain / sender
+
 ================================================================================
