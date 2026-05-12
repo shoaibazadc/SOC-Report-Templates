@@ -16,7 +16,7 @@ Templates are tool-agnostic and work alongside any SIEM, EDR, or ticketing platf
 | 04 | Suspicious Login |
 | 05 | Brute Force |
 | 06 | C2 / Beaconing |
-| 07 | Suspicious Process Execution |
+| 07 | Process Execution |
 | 08 | Privilege Escalation |
 | 09 | Lateral Movement |
 | 10 | Data Exfiltration |
