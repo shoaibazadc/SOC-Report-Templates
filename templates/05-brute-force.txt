@@ -40,6 +40,7 @@ IMPACT
 Legitimate automated process (False Positive)
 Legitimate user locked out (False Positive)
 Account not compromised (All Attempts Failed)
+
 Account locked out due to failed attempts
 Successful login observed following failed attempts
 Potential account takeover
@@ -57,6 +58,7 @@ Check for lateral movement
 Monitor account for further suspicious activity
 Review other accounts targeted from same source IP
 Alert user if account was targeted
+
 Tune detection logic to reduce false positives
 
 ================================================================================
