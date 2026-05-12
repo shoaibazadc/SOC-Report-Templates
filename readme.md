@@ -13,7 +13,7 @@ Templates are tool-agnostic and work alongside any SIEM, EDR, or ticketing platf
 | 01 | Phishing |
 | 02 | Malware / Endpoint Infection |
 | 03 | Ransomware |
-| 04 | Suspicious Login / Authentication Anomaly |
+| 04 | Suspicious Login |
 | 05 | Unauthorised Access / Brute Force |
 | 06 | C2 / Beaconing |
 | 07 | Suspicious Process Execution |
