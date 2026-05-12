@@ -4,33 +4,25 @@ A collection of structured report templates for SOC L1 analyst workflows and Try
 
 ---
 
-## Background
-
-One of the most common failure points in a SOC is inconsistent escalation quality. Analysts working under alert fatigue miss fields, write vague summaries, or escalate without clear impact assessments, forcing L2 and IR teams to chase down basic context. These templates exist to solve that problem by giving analysts a repeatable, structured starting point for every significant alert type.
-
-Each template follows the same structure: metadata, alert details, a guided summary, an impact checklist, and recommended actions. The `[X]` placeholders and checkbox format are intentional, designed for speed during active triage.
-
----
-
 ## Templates Included
 
 | # | Alert Type |
 |---|---|
-| 00 | Phishing |
-| 01 | Malware / Endpoint Infection |
-| 02 | Suspicious Process Execution |
-| 03 | Unauthorised Access / Brute Force |
-| 04 | Privilege Escalation |
-| 05 | Lateral Movement |
-| 06 | Data Exfiltration |
-| 07 | C2 / Beaconing |
-| 08 | Insider Threat |
-| 09 | Vulnerability / Exploit Attempt |
-| 10 | Denial of Service (DoS / DDoS) |
-| 11 | Suspicious Network Traffic |
-| 12 | Suspicious Login / Authentication Anomaly |
-| 13 | Ransomware |
-| 14 | USB / Removable Media |
+| 01 | Phishing |
+| 02 | Malware / Endpoint Infection |
+| 03 | Suspicious Process Execution |
+| 04 | Unauthorised Access / Brute Force |
+| 05 | Privilege Escalation |
+| 06 | Lateral Movement |
+| 07 | Data Exfiltration |
+| 08 | C2 / Beaconing |
+| 09 | Insider Threat |
+| 10 | Vulnerability / Exploit Attempt |
+| 11 | Denial of Service (DoS / DDoS) |
+| 12 | Suspicious Network Traffic |
+| 13 | Suspicious Login / Authentication Anomaly |
+| 14 | Ransomware |
+| 15 | USB / Removable Media |
 
 ---
 
