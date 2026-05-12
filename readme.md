@@ -11,7 +11,7 @@ Templates are tool-agnostic and work alongside any SIEM, EDR, or ticketing platf
 | # | Alert Type |
 |---|---|
 | 01 | Phishing |
-| 02 | Malware / Endpoint Infection |
+| 02 | Malware Infection |
 | 03 | Ransomware |
 | 04 | Suspicious Login |
 | 05 | Brute Force |
