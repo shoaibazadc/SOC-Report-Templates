@@ -1,7 +1,8 @@
 # SOC Report Templates
 
-A collection of structured report templates for SOC L1 analyst workflows and TryHackMe investigation writeups, covering the most common alert categories encountered during triage. Built for consistent, repeatable documentation.
-Templates are tool-agnostic and intended to work alongside any SIEM, EDR, or ticketing platform.
+Structured escalation templates for SOC L1 triage and TryHackMe investigation writeups, covering the most common alert categories. Built for consistent, repeatable documentation.
+
+Templates are tool-agnostic and work alongside any SIEM, EDR, or ticketing platform.
 
 ---
 
@@ -11,19 +12,20 @@ Templates are tool-agnostic and intended to work alongside any SIEM, EDR, or tic
 |---|---|
 | 01 | Phishing |
 | 02 | Malware / Endpoint Infection |
-| 03 | Suspicious Process Execution |
-| 04 | Unauthorised Access / Brute Force |
-| 05 | Privilege Escalation |
-| 06 | Lateral Movement |
-| 07 | Data Exfiltration |
-| 08 | C2 / Beaconing |
-| 09 | Insider Threat |
-| 10 | Vulnerability / Exploit Attempt |
-| 11 | Denial of Service (DoS / DDoS) |
-| 12 | Suspicious Network Traffic |
-| 13 | Suspicious Login / Authentication Anomaly |
-| 14 | Ransomware |
-| 15 | USB / Removable Media |
+| 03 | Ransomware |
+| 04 | Suspicious Login / Authentication Anomaly |
+| 05 | Unauthorised Access / Brute Force |
+| 06 | C2 / Beaconing |
+| 07 | Suspicious Process Execution |
+| 08 | Privilege Escalation |
+| 09 | Lateral Movement |
+| 10 | Data Exfiltration |
+| 11 | Suspicious Network Traffic |
+| 12 | Port Scanning |
+| 13 | Vulnerability / Exploit Attempt |
+| 14 | Denial of Service (DoS / DDoS) |
+| 15 | Insider Threat |
+| 16 | USB / Removable Media |
 
 ---
 
@@ -32,14 +34,12 @@ Templates are tool-agnostic and intended to work alongside any SIEM, EDR, or tic
 Every template follows this layout:
 
 ```
-Header Fields       — Date/time, analyst, severity, ticket ref
-Alert Details       — Tool-specific observables (hashes, IPs, users, endpoints)
-Summary             — Guided narrative with correlation context
-Impact              — Checkbox list of potential outcomes
-Recommended Actions — Prioritised response steps
+Header Fields       — Date/time, severity, ticket ref
+Alert Details       — Observables (hashes, IPs, users, endpoints)
+Summary             — Alert narrative with correlation context
+Impact              — List of potential outcomes
+Recommended Actions — List of response steps
 ```
-
-MITRE ATT&CK technique fields are included throughout to support threat intelligence enrichment and reporting.
 
 ---
 
@@ -47,13 +47,16 @@ MITRE ATT&CK technique fields are included throughout to support threat intellig
 
 1. Open the relevant template for the alert type you are triaging.
 2. Fill in all header metadata before beginning analysis.
-3. Write the summary section in your own words, using the bracketed prompts as a guide.
-4. Work through the impact checklist and tick every item that applies.
-5. Select all the appropriate recommended actions.
+3. Write the summary in your own words using the bracketed prompts as a guide.
+4. Work through the impact list and delete anything that does not apply.
+5. Do the same for recommended actions, then add any steps specific to your environment.
 6. Attach or paste the completed report when escalating.
 
-> These templates are a starting point, not a ceiling. Add context, screenshots, log extracts, or IOC tables as needed.
+These templates are a starting point, not a ceiling. Add log extracts, IOC tables, or screenshots as needed.
 
 ---
+
+*Part of an ongoing SOC homelab and portfolio project. Feedback and contributions welcome.*
+
 
 *Part of an ongoing SOC homelab and portfolio project. Feedback and contributions welcome.*
