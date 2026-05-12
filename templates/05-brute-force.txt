@@ -1,0 +1,62 @@
+================================================================================
+                             BRUTE FORCE
+================================================================================
+
+Date & Time      :
+Alert / Rule     :
+Ticket Ref       :
+Severity         : Low | Medium | High | Critical
+
+--------------------------------------------------------------------------------
+ALERT DETAILS
+--------------------------------------------------------------------------------
+
+Time of Activity :
+User / Account   :
+Source IP        :
+Source Location  :
+Destination      :
+Protocol / Port  :
+No. of Attempts  :
+Timeframe        :
+Outcome          : Failed | Successful
+Detection Source : SIEM | IDS/IPS | Firewall | Other:
+Related Alert IDs:
+
+--------------------------------------------------------------------------------
+SUMMARY
+--------------------------------------------------------------------------------
+
+[Brute force / password spray] attack detected against [account / service / system / X] from source IP [X] ([geolocation]). A total of [X] failed attempts were observed over [timeframe], [followed by a successful login / with no successful login].
+
+Correlated [firewall logs / authentication logs / X] shows [X], indicating [X - e.g. known malicious IP, automated attack tool, targeted attempt].
+
+User role: Standard | Admin | Service account
+
+--------------------------------------------------------------------------------
+IMPACT
+--------------------------------------------------------------------------------
+
+Legitimate automated process (False Positive)
+Legitimate user locked out (False Positive)
+Account not compromised (All Attempts Failed)
+Account locked out due to failed attempts
+Successful login observed following failed attempts
+Potential account takeover
+Access to sensitive systems / data
+
+--------------------------------------------------------------------------------
+RECOMMENDED ACTIONS
+--------------------------------------------------------------------------------
+
+Block source IP at firewall
+Lock / disable account
+Reset user credentials
+Review successful logins from same IP or account post-attack
+Check for lateral movement
+Monitor account for further suspicious activity
+Review other accounts targeted from same source IP
+Alert user if account was targeted
+Tune detection logic to reduce false positives
+
+================================================================================
