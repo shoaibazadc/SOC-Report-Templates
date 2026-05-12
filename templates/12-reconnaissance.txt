@@ -1,0 +1,63 @@
+================================================================================
+                            RECONNAISSANCE
+================================================================================
+
+Date & Time      :
+Alert / Rule     :
+Ticket Ref       :
+Severity         : Low | Medium | High | Critical
+
+--------------------------------------------------------------------------------
+ALERT DETAILS
+--------------------------------------------------------------------------------
+
+Time of Activity :
+Source IP        :
+Source Location  :
+Target IP / Range:
+Ports Scanned    :
+Scan Type        : SYN | UDP | ICMP | Full Connect | Other:
+No. of Packets   :
+Timeframe        :
+Outcome          : Blocked | Reached Target | Unknown
+Detection Source : IDS/IPS | Firewall | SIEM | Other:
+Related Alert IDs:
+
+--------------------------------------------------------------------------------
+SUMMARY
+--------------------------------------------------------------------------------
+
+Reconnaissance / port scanning activity was detected from source IP [X] ([geolocation]) targeting [IP / range / X] at [time]. A total of [X] ports were probed over [timeframe] using [scan type].
+
+The activity appears [opportunistic / targeted] and the source IP [is / is not] present on threat intelligence feeds.
+
+Correlated [firewall logs / IDS alerts / threat intel / X] shows [X], indicating [X - e.g. automated scanning, targeted pre-attack reconnaissance, known scanning tool].
+
+--------------------------------------------------------------------------------
+IMPACT
+--------------------------------------------------------------------------------
+
+Authorised vulnerability scan (False Positive)
+Scanning blocked at perimeter (No Impact)
+
+Scanning reached internal systems
+Open ports / services identified by attacker
+Active exploitation attempt following reconnaissance
+Internal reconnaissance - potential insider threat or compromised host
+
+--------------------------------------------------------------------------------
+RECOMMENDED ACTIONS
+--------------------------------------------------------------------------------
+
+Confirm whether activity is authorised pen test / vulnerability scan
+Block source IP at firewall
+Review which ports / services were reached
+Check for follow-on exploitation attempts from same source IP
+Review firewall rules for unnecessarily exposed services
+Check for related alerts from same source IP
+Submit source IP to threat intel platform
+Monitor for further activity from same source or IP range
+
+Tune detection logic to reduce false positives
+
+================================================================================
