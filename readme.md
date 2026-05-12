@@ -34,11 +34,11 @@ Templates are tool-agnostic and work alongside any SIEM, EDR, or ticketing platf
 Every template follows this layout:
 
 ```
-Header Fields          — Date/time, severity, ticket ref
-Alert Details          — Observables (hashes, IPs, users, endpoints)
-Summary                — Alert narrative with correlation context
-Impact                 — List of potential outcomes
-Recommended Actions    — List of response steps
+Header Fields          - Date/time, severity, ticket ref
+Alert Details          - Observables (hashes, IPs, users, endpoints)
+Summary                - Alert narrative with correlation context
+Impact                 - List of potential outcomes
+Recommended Actions    - List of response steps
 ```
 
 ---
