@@ -1,8 +1,7 @@
 # SOC Report Templates
 
 A collection of structured report templates for SOC L1 analyst workflows and TryHackMe investigation writeups, covering the most common alert categories encountered during triage. Built for consistent, repeatable documentation.
-
-- Templates are tool-agnostic and intended to work alongside any SIEM, EDR, or ticketing platform.
+Templates are tool-agnostic and intended to work alongside any SIEM, EDR, or ticketing platform.
 
 ---
 
