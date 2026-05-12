@@ -29,11 +29,11 @@ A collection of structured report templates for SOC L1 analyst workflows and Try
 ## How to Use
 
 1. Open the relevant template for the alert type you are triaging.
-2. Fill in all header metadata fields before beginning analysis.
+2. Fill in all header metadata before beginning analysis.
 3. Write the summary section in your own words, using the bracketed prompts as a guide. Replace `[X]` with actual findings.
-4. Work through the impact checklist and tick every item that applies. Leave nothing ambiguous.
-5. Select all recommended actions appropriate to the confirmed or suspected impact.
-6. Attach or paste the completed report into your ticketing system (e.g. Jira, ServiceNow) when escalating.
+4. Work through the impact checklist and tick every item that applies.
+5. Select all the appropriate recommended actions.
+6. Attach or paste the completed report when escalating.
 
 > These templates are a starting point, not a ceiling. Add context, screenshots, log extracts, or IOC tables as needed.
 
