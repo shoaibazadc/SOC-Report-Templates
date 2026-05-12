@@ -1,0 +1,60 @@
+================================================================================
+                         PRIVILEGE ESCALATION
+================================================================================
+
+Date & Time      :
+Alert / Rule     :
+Ticket Ref       :
+Severity         : Low | Medium | High | Critical
+
+--------------------------------------------------------------------------------
+ALERT DETAILS
+--------------------------------------------------------------------------------
+
+Time of Activity :
+User / Account   :
+Endpoint         :
+Original Role    :
+Escalated Role   :
+Method Used      :
+Process / Tool   :
+Detection Source : EDR | SIEM | Other:
+Related Alert IDs:
+
+--------------------------------------------------------------------------------
+SUMMARY
+--------------------------------------------------------------------------------
+
+Privilege escalation was detected involving account [X] on endpoint / system [X]. The account escalated from [standard user / X] to [local admin / domain admin / SYSTEM / X] using [method - e.g. token impersonation, sudo abuse, exploit / X].
+
+Correlated [EDR telemetry / SIEM alerts / X] shows [X], indicating [X - e.g. post-exploitation activity, misuse of legitimate admin tool, insider threat].
+
+--------------------------------------------------------------------------------
+IMPACT
+--------------------------------------------------------------------------------
+
+Legitimate / authorised activity (False Positive)
+
+Escalation confirmed but no further malicious activity observed
+Unauthorised admin access gained
+Sensitive data / systems now accessible
+Credential dumping attempt following escalation
+Persistence mechanism established
+Lateral movement suspected
+C2 communication established
+
+--------------------------------------------------------------------------------
+RECOMMENDED ACTIONS
+--------------------------------------------------------------------------------
+
+Isolate endpoint
+Revoke elevated privileges
+Reset credentials
+Review access logs
+Check for persistence mechanisms (scheduled tasks / registry / services)
+Review other accounts on the same endpoint for compromise
+Check for lateral movement
+Collect and preserve forensic evidence
+Patch exploited vulnerability
+
+================================================================================
