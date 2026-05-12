@@ -59,8 +59,6 @@ MITRE ATT&CK technique fields are included throughout to support threat intellig
 
 - Templates are tool-agnostic and intended to work alongside any SIEM, EDR, or ticketing platform.
 - Severity ratings (Low / Medium / High / Critical) should align with your organisation's classification policy.
-- The Ransomware template includes IR escalation steps given its potential for rapid, high-impact spread.
-- False positive checkboxes are included in every impact section as an explicit triage outcome, not an afterthought.
 
 ---
 
