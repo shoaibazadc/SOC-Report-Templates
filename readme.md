@@ -1,6 +1,6 @@
-# SOC Escalation Report Templates
+# SOC Report Templates
 
-A collection of structured escalation report templates for SOC L1/L2 analysts, covering the most common alert categories encountered during triage. Built to standardise analyst output, reduce escalation errors, and ensure critical fields are captured consistently under pressure.
+A collection of structured report templates for SOC L1 analyst workflows and TryHackMe investigation writeups, covering the most common alert categories encountered during triage. Built for consistent, repeatable documentation.
 
 ---
 
