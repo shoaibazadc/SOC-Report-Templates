@@ -2,6 +2,8 @@
 
 A collection of structured report templates for SOC L1 analyst workflows and TryHackMe investigation writeups, covering the most common alert categories encountered during triage. Built for consistent, repeatable documentation.
 
+- Templates are tool-agnostic and intended to work alongside any SIEM, EDR, or ticketing platform.
+
 ---
 
 ## Templates Included
@@ -52,13 +54,6 @@ Recommended Actions — Prioritised response steps
 ```
 
 MITRE ATT&CK technique fields are included throughout to support threat intelligence enrichment and reporting.
-
----
-
-## Notes
-
-- Templates are tool-agnostic and intended to work alongside any SIEM, EDR, or ticketing platform.
-- Severity ratings (Low / Medium / High / Critical) should align with your organisation's classification policy.
 
 ---
 
