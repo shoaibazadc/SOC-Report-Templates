@@ -21,7 +21,7 @@ Templates are tool-agnostic and work alongside any SIEM, EDR, or ticketing platf
 | 09 | Lateral Movement |
 | 10 | Data Exfiltration |
 | 11 | Suspicious Network Traffic |
-| 12 | Port Scanning |
+| 12 | Reconnaissance |
 | 13 | Vulnerability / Exploit Attempt |
 | 14 | Denial of Service (DoS / DDoS) |
 | 15 | Insider Threat |
