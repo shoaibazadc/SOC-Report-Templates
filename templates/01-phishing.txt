@@ -26,16 +26,11 @@ Other            :
 SUMMARY
 --------------------------------------------------------------------------------
 
-A phishing email about [X] was [detected / reported] on [date] targeting
-[user / department / X]. The email contains a malicious [attachment / URL]
-and the sender/domain appears [legitimate / suspicious], impersonating
-[brand / internal team / X].
+A phishing email about [X] was [detected / reported] on [date] targeting [user / department / X]. The email contains a malicious [attachment / URL] and the sender/domain appears [legitimate / suspicious], impersonating [brand / internal team / X].
 
-The email attempts to create a sense of urgency by [X - e.g. account
-suspension warning, invoice overdue, password expiry, parcel delivery].
+The email attempts to create a sense of urgency by [X - e.g. account suspension warning, invoice overdue, password expiry, parcel delivery].
 
-Correlated [SIEM alerts / proxy logs / EDR telemetry] shows [X],
-indicating [X - e.g. active campaign].
+Correlated [SIEM alerts / proxy logs / EDR telemetry] shows [X], indicating [X - e.g. active campaign].
 
 --------------------------------------------------------------------------------
 IMPACT
