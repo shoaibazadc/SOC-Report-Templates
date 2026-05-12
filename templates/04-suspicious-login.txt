@@ -1,0 +1,59 @@
+================================================================================
+                           SUSPICIOUS LOGIN
+================================================================================
+
+Date & Time      :
+Alert / Rule     :
+Ticket Ref       :
+Severity         : Low | Medium | High | Critical
+
+--------------------------------------------------------------------------------
+ALERT DETAILS
+--------------------------------------------------------------------------------
+
+Time of Activity :
+User / Account   :
+Source IP        :
+Source Location  :
+Device           :
+Login Method     : Password | SSO | Certificate | Other:
+Outcome          : Successful | Failed
+Related Alert IDs:
+
+--------------------------------------------------------------------------------
+SUMMARY
+--------------------------------------------------------------------------------
+
+A suspicious authentication event was detected for account [X] from [IP / location / X] at [time]. The anomaly is [X - e.g. login from unusual country, impossible travel, login outside business hours, unfamiliar device, first-time source IP].
+
+Correlated [SIEM alerts / X] shows [X], indicating [X - e.g. account compromise, credential stuffing, legitimate travel].
+
+User role: Standard | Admin | Service account
+
+--------------------------------------------------------------------------------
+IMPACT
+--------------------------------------------------------------------------------
+
+Legitimate travel / VPN / remote access (False Positive)
+
+Suspicious login blocked / session terminated
+Successful login - access may have been gained
+Impossible travel confirmed
+Account takeover suspected
+Sensitive systems / data accessible
+
+--------------------------------------------------------------------------------
+RECOMMENDED ACTIONS
+--------------------------------------------------------------------------------
+
+Verify with user whether login was legitimate
+Reset user credentials
+Revoke active tokens / sessions
+Block source IP
+Review all activity performed during suspicious session
+Monitor account for further anomalous activity
+Check for lateral movement
+
+Tune detection logic to reduce false positives
+
+================================================================================
