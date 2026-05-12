@@ -30,7 +30,7 @@ A collection of structured report templates for SOC L1 analyst workflows and Try
 
 1. Open the relevant template for the alert type you are triaging.
 2. Fill in all header metadata before beginning analysis.
-3. Write the summary section in your own words, using the bracketed prompts as a guide. Replace `[X]` with actual findings.
+3. Write the summary section in your own words, using the bracketed prompts as a guide.
 4. Work through the impact checklist and tick every item that applies.
 5. Select all the appropriate recommended actions.
 6. Attach or paste the completed report when escalating.
