@@ -37,6 +37,7 @@ IMPACT
 --------------------------------------------------------------------------------
 
 Legitimate email activity (False Positive)
+
 No evidence of user interaction
 Likely user clicked phishing link / opened attachment
 Delayed user interaction
@@ -61,6 +62,7 @@ Monitor endpoint for suspicious activity
 Scan endpoint for malware
 Isolate endpoint
 Remove malicious files / attachments
+
 Tune detection logic to reduce false positives
 Whitelist domain / sender
 
