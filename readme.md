@@ -57,6 +57,3 @@ These templates are a starting point, not a ceiling. Add log extracts, IOC table
 ---
 
 *Part of an ongoing SOC homelab and portfolio project. Feedback and contributions welcome.*
-
-
-*Part of an ongoing SOC homelab and portfolio project. Feedback and contributions welcome.*
