@@ -1,0 +1,69 @@
+================================================================================
+                      PHISHING
+================================================================================
+
+Date & Time      :
+Alert / Rule     :
+Ticket Ref       :
+Severity         : Low | Medium | High | Critical
+
+--------------------------------------------------------------------------------
+ALERT DETAILS
+--------------------------------------------------------------------------------
+
+Time of Activity :
+User             :
+Endpoint         :
+Sender           :
+Sender Domain    :
+Reply-To         :
+Subject          :
+URL              :
+Attachment       :
+Other            :
+
+--------------------------------------------------------------------------------
+SUMMARY
+--------------------------------------------------------------------------------
+
+A phishing email about [X] was [detected / reported] on [date] targeting [user / department / X]. 
+The email contains a malicious [attachment / URL] and the sender/domain appears [legitimate / suspicious], impersonating [brand / internal team / X].
+The email attempts to create a sense of urgency by [X - e.g. account suspension warning, invoice overdue, password expiry, parcel delivery].
+ 
+Correlated [SIEM alerts / proxy logs / EDR telemetry] shows [X], indicating [X - e.g. active campaign].
+
+--------------------------------------------------------------------------------
+IMPACT
+--------------------------------------------------------------------------------
+
+Legitimate email activity (False Positive)
+No evidence of user interaction
+
+Likely user clicked phishing link / opened attachment
+Delayed user interaction
+Potential credential harvesting
+Potential malware infection on endpoint
+Execution of malicious scripts
+Connection attempt successfully blocked
+Business Email Compromise
+
+--------------------------------------------------------------------------------
+RECOMMENDED ACTIONS
+--------------------------------------------------------------------------------
+
+Block sender domain / email address / malicious URLs / associated IPs
+Search for other recipients of the same email
+Monitor for user click activity
+Check for additional related alerts / incidents
+Contact user to confirm whether link was clicked / attachment opened / credentials entered
+Reset user credentials
+Monitor account for suspicious login activity
+Monitor endpoint for suspicious activity
+Scan endpoint for malware
+Isolate endpoint
+Remove malicious files / attachments
+
+Tune detection logic to reduce false positives
+Whitelist domain / sender
+
+================================================================================
